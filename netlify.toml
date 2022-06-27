@@ -1,0 +1,3 @@
+from = "https://personal-project-site-dsw.netlify.app/404"
+to = "https://personal-project-site-dsw.netlify.app/404error"
+status = 404

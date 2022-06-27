@@ -1,0 +1,349 @@
+/* home page */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #ffffff;
+    line-height: 1.5;
+    width: 1280px;
+    border: 0px;
+}
+
+.contact-form{
+    padding-top: 4px;
+    line-height: 1.5px;
+}
+
+a:link{text-decoration: none;color: #000;}
+a:visited{text-decoration: none;color: #000;}
+a:hover{text-decoration: none; color: #ffffff}
+a:active{text-decoration: none;color: #000;}
+
+.clr1{
+    color: #ffffff;
+}
+
+.clr2{
+    color: #1a1919;
+}
+
+.container{
+    margin: auto;
+}
+
+#stretch{
+    padding-top: 18px;
+    width: 920px;
+    height: 360px;
+}
+#stretch2{
+    padding-top: 18px;
+    width: 740px;
+    height: 300px;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: #ffffff;
+}
+
+.nav-options{
+    display: flex;
+    list-style: none;
+    padding: 12px 16px;
+}
+
+.nav-right{
+    justify-content: space-between;
+}
+
+.option{
+    display: inline-block;
+    padding: 12px 12px 12px 12px;
+    padding-bottom: 22px;
+    font-family: 'PT Sans';
+    color: #000;
+    font-size: 22px;
+    font-weight: 200;
+    font-style: none;
+    margin: 12px 12px 12px 12px;
+}
+h1{
+    margin: 40px;
+    margin-top: 0px;
+    font-family: 'PT Sans';
+    font-size: 60px;
+}
+h2{
+    margin: 40px;
+    margin-right: 150px;
+    font-family: 'PT Sans';
+    font-size: 50px;
+}
+h3{
+    display: inline;
+    margin: 40px;
+    margin-right: 150px;
+    font-family: 'PT Sans';
+    font-size: 23px;
+}
+
+h4{
+    text-decoration: none;
+    margin-left: 40px;
+    margin-right: 150px;
+    font-family: 'PT Sans'; 
+    font-weight: 50;
+}
+
+h5{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'PT Sans'; 
+    font-weight: 50;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+p{
+    margin-left: 40px;
+    margin-right: 150px;
+    font-family: 'PT Sans';
+    font-size: 16px;
+    font-weight: 100;
+    color: #ffffff;
+    text-align: justify;
+}
+    
+
+.nav-bar{
+    height: 475px;
+    width: 100%;
+    background-color:  #ffffff;
+}
+
+
+.abt-img{
+    width: 1350px;
+    height: 480px;
+    object-fit: cover;
+}
+.abt-bar{
+    height: 475px;
+    width: 100%;
+    background-color: #1a1919;
+}
+.thmbnl-cntnr{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    object-position: 6.5px;
+}
+.film-bar{
+    height: 300px;
+    width: 100%;
+    background-color: #1a1919;
+}
+
+.instll-img{
+    height: 360px;
+    object-fit: contain;
+    object-position: 0px;
+}
+.instll-bar{
+    height: 360px;
+    width: 100%;
+    background-color: #1a1919;
+    padding-right: 400px;
+}
+
+.mini-imgs{
+    width: 220px;
+    height: 123.75px; 
+    font-family: 'PT Sans';
+}
+
+#specialft-layout{
+        font-family: 'PT Sans';
+        color: #1a1919;
+        text-align: center;
+        margin-top: 50px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        background-color: #ffffff;
+        border: #333333 dashed 4px;  
+}
+
+.specialft{
+        width: 444px;
+        height: 444px;
+        background-color: #ffffff;
+}
+.grid-specialft{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 20px;
+}
+
+.latest{
+    margin-top: 40px;
+    height: 130px;
+    background-color: #333333;
+}
+
+.option:hover{
+    background-color: #687700;
+    color: #ffffff;
+    font-weight: 600px;
+    padding: 18px 46px 16px 46px;
+}
+
+.grid-clmns-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-clmns-5{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-wrap-projects{
+    text-align: center;
+    background-color: #333333;
+}
+
+#nav{
+    width: 100%;
+    height: 202px;
+    text-align: justify;
+    padding: 38px 26px 20px 26px;
+}
+
+
+/* 404 error page styling start */
+.error{
+    display: inline-block;
+    background-color: #1a1919;
+    width: 100%;
+    color: #ffffff;
+    font-family: 'PT Sans';
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 200px;
+    padding-bottom: 170px;
+    padding-left: 253.5px;
+    padding-right: 253.5px;
+    line-height: 404%;
+}
+#error-align{
+    margin: 0;
+    padding: 0;
+}
+.err-img{
+    width: 444px;
+}
+/* 404 error page styling end*/
+
+/*landing page styling start*/
+.landing-img{
+    width: 100%;
+    padding-top: 10px;
+}
+
+/*landing page styling end*/
+
+
+/*contact page styling start*/
+.cntct-img{
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+}
+.cntct-bar{
+    height: 475px;
+    width: 100%;
+    background-color: #1a1919;
+}
+.contact-form input,
+.contact-form textarea{
+    font-family: 'PT Sans';
+    font-weight: 100;
+    font-size: 20px;
+    color: #000;
+    width: 520px;
+    height: 33px;
+    border-radius: 4.4px;
+    margin-left: 40px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.contact-form button{
+    font-family: 'PT Sans';
+    font-weight: 100;
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+    background-color: #1a1919;
+    margin-top: 24px;
+    margin-left: 40px;
+
+}
+::placeholder{
+    font-family: 'PT Sans';
+    font-size: 18px;
+    font-style: italic;
+    padding-left: 8px;
+}
+/*contact page styling end*/
+
+footer{
+    margin-top: 44px;
+    margin-bottom: 44px;
+    padding-top: 200px;
+    height: 444px;
+    background-color: #687700;
+    color: #ffffff;
+    font-family: 'PT Sans';
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.logo-footer{
+    width: 90px;
+    height: 90px;   
+}
+#footer{
+    width: 100%;
+    background-color: #000;
+}
+#error-footer{
+width: 100%;
+padding-top: 120px;
+background-color: #1a1919;
+}
+
+.sm{
+    color: #ffffff;
+    margin-right: 44px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    height: 22px;
+    font-size: 30px;
+}
